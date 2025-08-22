@@ -1,17 +1,17 @@
-# 🤖 WhatsApp RAG Bot
+#  WhatsApp RAG Bot
 
 A powerful WhatsApp chatbot that uses Retrieval-Augmented Generation (RAG) to answer questions based on uploaded documents. Built with FastAPI, Streamlit, Anthropic Claude, and Pinecone.
 
-## ✨ Features
+## Features
 
-- **📱 WhatsApp Integration**: Receive and respond to messages via WhatsApp
-- **📄 Multi-format Support**: Upload PDF, TXT, and DOCX files
-- **🧠 AI-Powered**: Uses Anthropic Claude for intelligent responses
-- **🔍 Smart Search**: Vector search through document content using Pinecone
-- **🌐 Web Interface**: Streamlit dashboard for file management and testing
-- **📊 Real-time Status**: Monitor system health and document status
+-  WhatsApp Integration: Receive and respond to messages via WhatsApp
+-  Multi-format Support: Upload PDF, TXT, and DOCX files
+-  AI-Powered: Uses Anthropic Claude for intelligent responses
+-  Smart Search: Vector search through document content using Pinecone
+-  Web Interface: Streamlit dashboard for file management and testing
+-  Real-time Status: Monitor system health and document status
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Environment Setup
 
@@ -53,7 +53,7 @@ uvicorn app_fastapi:app --host 0.0.0.0 --port 8000 --reload
 streamlit run app_streamlit.py
 ```
 
-## 📋 Prerequisites
+##  Prerequisites
 
 ### WhatsApp Business API
 1. Create a Meta Developer account
@@ -71,7 +71,7 @@ streamlit run app_streamlit.py
 1. Sign up for Anthropic
 2. Get your API key for Claude
 
-## 🔧 Configuration
+##  Configuration
 
 ### WhatsApp Webhook Setup
 1. Set your webhook URL to: `https://your-domain.com/webhook`
@@ -85,7 +85,7 @@ streamlit run app_streamlit.py
 - **Cloud**: AWS (us-east-1)
 - Uses Pinecone v2 serverless API
 
-## 📱 Usage
+##  Usage
 
 ### 1. Upload Documents
 - Open the Streamlit interface
@@ -105,7 +105,7 @@ streamlit run app_streamlit.py
 - Verify document retrieval
 - Monitor system performance
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Uploads → Streamlit → Vector Store (Pinecone)
@@ -115,7 +115,7 @@ WhatsApp Message → FastAPI → RAG Pipeline → Anthropic Claude
 Response → WhatsApp API → User
 ```
 
-## 🔍 API Endpoints
+##  API Endpoints
 
 ### GET `/webhook`
 - WhatsApp webhook verification
@@ -126,7 +126,7 @@ Response → WhatsApp API → User
 - Processes RAG pipeline
 - Sends responses back
 
-## 📁 File Structure
+##  File Structure
 
 ```
 RAG-Bot/
@@ -139,7 +139,7 @@ RAG-Bot/
 └── README.md             # This file
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -175,21 +175,21 @@ RAG-Bot/
 8. **NameError: JSONResponse is not defined**
    - Add `from fastapi.responses import JSONResponse`.
 
-## 🔒 Security Notes
+##  Security Notes
 
 - Keep API keys secure
 - Use HTTPS for production
 - Implement rate limiting
 - Monitor API usage
 
-## 📈 Scaling
+##  Scaling
 
 - Use multiple Pinecone indexes for different document types
 - Implement caching for frequent queries
 - Add monitoring and logging
 - Consider load balancing for high traffic
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -197,11 +197,11 @@ RAG-Bot/
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 🆘 Support
+##  Support
 
 For issues and questions:
 - Check the troubleshooting section
@@ -211,5 +211,5 @@ For issues and questions:
 
 ---
 
-**Built with ❤️ using FastAPI, Streamlit, Anthropic Claude, and Pinecone**
+**Built with using FastAPI, Streamlit, Anthropic Claude, and Pinecone for EKKEL AI**
 # Whatsapp-RAG-BOT
