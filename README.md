@@ -212,4 +212,5 @@ For issues and questions:
 ---
 
 **Built with using FastAPI, Streamlit, Anthropic Claude, and Pinecone for EKKEL AI**
-# Whatsapp-RAG-BOT
+
+# WA-RAG-BOT
