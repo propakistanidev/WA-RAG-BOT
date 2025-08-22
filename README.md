@@ -213,5 +213,3 @@ For issues and questions:
 
 **Built with using FastAPI, Streamlit, Anthropic Claude, and Pinecone for EKKEL AI**
 
-# WA-RAG-BOT
-# WA-RAG-BOT
