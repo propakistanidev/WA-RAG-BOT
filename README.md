@@ -2,14 +2,14 @@
 
 A powerful WhatsApp chatbot that uses Retrieval-Augmented Generation (RAG) to answer questions based on uploaded documents. Built with FastAPI, Streamlit, Anthropic Claude, and Pinecone.
 
-##  Features
+## Features
 
-- ** WhatsApp Integration**: Receive and respond to messages via WhatsApp
-- ** Multi-format Support**: Upload PDF, TXT, and DOCX files
-- ** AI-Powered**: Uses Anthropic Claude for intelligent responses
-- ** Smart Search**: Vector search through document content using Pinecone
-- ** Web Interface**: Streamlit dashboard for file management and testing
-- ** Real-time Status**: Monitor system health and document status
+-  WhatsApp Integration: Receive and respond to messages via WhatsApp
+-  Multi-format Support: Upload PDF, TXT, and DOCX files
+-  AI-Powered: Uses Anthropic Claude for intelligent responses
+-  Smart Search: Vector search through document content using Pinecone
+-  Web Interface: Streamlit dashboard for file management and testing
+-  Real-time Status: Monitor system health and document status
 
 ##  Quick Start
 
